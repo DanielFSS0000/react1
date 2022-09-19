@@ -1,0 +1,50 @@
+/* Reset style */
+body{
+    margin: 0;
+
+}
+p, h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Style App */
+.App{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color:white;
+    padding:20px;
+    border-radius:20px;
+    box-shadow: 1px 10px 10px 10px #0009;
+    width: 400px;
+    max-height: 400px;
+}
+.card-quote{
+    margin-bottom:20px;
+    font-size: 18px;
+}
+.card-author{
+    margin-left: auto;
+    width: max-content;
+    font-size: 15px;
+}
+.card-btn{
+    display:block;
+    margin-left: auto;
+    color: white;
+    border: none;
+    width:30px;
+    aspect-ratio:1;
+    border-radius:50%;
+    cursor:pointer;
+    transition: filter 100ms ease, transform 100ms ease;
+}
+.card-btn:hover{
+    filter:brightness(1.1);
+    transform: scale(1.05);
+    transition: filter 100ms ease, transform 100ms ease;
+}
